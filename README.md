@@ -4,7 +4,7 @@
 https://github.com/haxhiuurim/DoraVersion.git
 ```
 
-From version **1.2.0** (XCFramework — no source in this repo).
+From version **1.2.1** (XCFramework — no source in this repo).
 
 ```swift
 Metriku.initialize("YOUR_APP_KEY", launchOptions: launchOptions)
