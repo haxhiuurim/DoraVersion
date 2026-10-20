@@ -1,9 +1,8 @@
 // swift-tools-version:5.9
 import PackageDescription
 
-// Public closed-source distribution.
-// Replace URL + checksum after uploading XCFramework zip to a GitHub Release.
-// Until the first binary is uploaded, install from private https://github.com/haxhiuurim/DoraSDK.git
+// Public distribution stub. Prefer DoraSDK for source installs.
+// Binary XCFramework releases will replace the placeholder target.
 
 let package = Package(
     name: "Metriku",
@@ -14,11 +13,11 @@ let package = Package(
         .library(name: "Metriku", targets: ["Metriku"]),
     ],
     targets: [
-        // After first binary release, switch to:
+        // After uploading Metriku.xcframework.zip to a GitHub Release:
         // .binaryTarget(
         //   name: "Metriku",
-        //   url: "https://github.com/haxhiuurim/DoraVersion/releases/download/1.0.2/Metriku.xcframework.zip",
-        //   checksum: "PASTE_SHA256_HERE"
+        //   url: "https://github.com/haxhiuurim/DoraVersion/releases/download/1.0.1/Metriku.xcframework.zip",
+        //   checksum: "PASTE_SHA256"
         // )
         .target(
             name: "Metriku",

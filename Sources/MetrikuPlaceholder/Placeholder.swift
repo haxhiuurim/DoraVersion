@@ -1,5 +1,5 @@
-// This public repo intentionally does not ship SDK source.
-// Install Metriku from a binary Release on this repo, or from the private DoraSDK repository.
-#if SWIFT_PACKAGE
-#error("Metriku source is not published here. Use a binary release from DoraVersion Releases, or the private DoraSDK package: https://github.com/haxhiuurim/DoraSDK.git")
-#endif
+/// Placeholder until a binary XCFramework is published to this repo's Releases.
+/// Install from https://github.com/haxhiuurim/DoraSDK.git for the real SDK.
+public enum MetrikuPlaceholder {
+    public static let notice = "Use DoraSDK SPM until DoraVersion binary release 1.0.1+"
+}

@@ -1,36 +1,11 @@
-# Metriku iOS — public releases
+# Metriku public releases (`DoraVersion`)
 
-**This repository is release-only.** It does **not** contain the Metriku SDK source code.
+Closed-source distribution channel for Metriku iOS SDK.
 
-- Source (private): https://github.com/haxhiuurim/DoraSDK  
-- Product: [metriku.dev](https://metriku.dev)
+Until the first XCFramework zip is attached to a GitHub Release, install from the private source repo:
 
-## Install (when a binary release is published)
-
-1. Open the [Releases](https://github.com/haxhiuurim/DoraVersion/releases) page.
-2. Add this package URL in Xcode SPM (once `Package.swift` points at binary zips):
-
-```text
-https://github.com/haxhiuurim/DoraVersion.git
 ```
-
-3. Pick a version tag (e.g. `1.0.2`).
-4. Link product `Metriku` to your app.
-
-## For Metriku team (private source)
-
-Use the private repo instead:
-
-```text
 https://github.com/haxhiuurim/DoraSDK.git
 ```
 
-## Publishing a closed-source release
-
-From the private `DoraSDK` machine:
-
-```bash
-./scripts/release-public-binary.sh 1.0.2
-# then upload Metriku.xcframework.zip to a GitHub Release on this repo
-# and update Package.swift checksums
-```
+Latest source tag: **1.0.1**
