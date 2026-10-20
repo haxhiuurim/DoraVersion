@@ -1,11 +1,9 @@
-# Metriku public releases (`DoraVersion`)
-
-Closed-source distribution channel for Metriku iOS SDK.
-
-Until the first XCFramework zip is attached to a GitHub Release, install from the private source repo:
+# Metriku iOS SDK (public binary)
 
 ```
-https://github.com/haxhiuurim/DoraSDK.git
+https://github.com/haxhiuurim/DoraVersion.git
 ```
 
-Latest source tag: **1.0.1**
+From version **1.0.0** (XCFramework — no source in this repo).
+
+Point `apiBaseURL` at **your Coolify web URL** (the same HTTPS domain as the Metriku dashboard), e.g. `https://metriku.dev` if that is what you configured — not a different invented host.

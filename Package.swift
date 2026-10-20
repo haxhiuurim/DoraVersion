@@ -1,9 +1,7 @@
 // swift-tools-version:5.9
 import PackageDescription
 
-// Public distribution stub. Prefer DoraSDK for source installs.
-// Binary XCFramework releases will replace the placeholder target.
-
+// Public closed-source Metriku SDK — binary XCFramework only (no Swift sources).
 let package = Package(
     name: "Metriku",
     platforms: [
@@ -13,15 +11,10 @@ let package = Package(
         .library(name: "Metriku", targets: ["Metriku"]),
     ],
     targets: [
-        // After uploading Metriku.xcframework.zip to a GitHub Release:
-        // .binaryTarget(
-        //   name: "Metriku",
-        //   url: "https://github.com/haxhiuurim/DoraVersion/releases/download/1.0.1/Metriku.xcframework.zip",
-        //   checksum: "PASTE_SHA256"
-        // )
-        .target(
+        .binaryTarget(
             name: "Metriku",
-            path: "Sources/MetrikuPlaceholder"
+            url: "https://github.com/haxhiuurim/DoraVersion/releases/download/1.0.0/Metriku.xcframework.zip",
+            checksum: "31449f95f5d6b83178cdec63914b157b6f760dc1935eb9888ada8af5c6f6f0f6"
         ),
     ]
 )
