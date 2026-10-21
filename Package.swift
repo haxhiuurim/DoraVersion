@@ -2,19 +2,20 @@
 import PackageDescription
 
 // Public closed-source Metriku SDK — binary XCFramework only (no Swift sources).
+// Module name is MetrikuSDK (import MetrikuSDK) so it does not collide with the Metriku API type.
 let package = Package(
     name: "Metriku",
     platforms: [
         .iOS(.v15)
     ],
     products: [
-        .library(name: "Metriku", targets: ["Metriku"]),
+        .library(name: "Metriku", targets: ["MetrikuSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "Metriku",
-            url: "https://github.com/haxhiuurim/DoraVersion/releases/download/1.3.2/Metriku.xcframework.zip",
-            checksum: "0769e4655e72838fe373fe78cd26c8884ad7c1dd5c37e3507411320771b89259"
+            name: "MetrikuSDK",
+            url: "https://github.com/haxhiuurim/DoraVersion/releases/download/1.3.2/MetrikuSDK.xcframework.zip",
+            checksum: "9dbaeaec913a3c49c26c2c84c4eb1a3ec572b1b35aabaf3bfc1b932072692f58"
         ),
     ]
 )
