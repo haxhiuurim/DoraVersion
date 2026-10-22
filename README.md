@@ -4,7 +4,7 @@
 https://github.com/haxhiuurim/DoraVersion.git
 ```
 
-From version **1.4.2** (XCFramework — no source in this repo).
+From version **1.4.4** (XCFramework — no source in this repo).
 
 ```swift
 import MetrikuSDK
