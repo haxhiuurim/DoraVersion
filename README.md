@@ -1,7 +1,7 @@
 # Metriku iOS SDK (public binary)
 
 ```
-https://github.com/haxhiuurim/DoraVersion.git
+https://github.com/haxhiuurim/Metriku.git
 ```
 
 From version **1.4.9** (XCFramework — no source in this repo).

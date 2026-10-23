@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MetrikuSDK",
-            url: "https://github.com/haxhiuurim/DoraVersion/releases/download/1.4.9/MetrikuSDK.xcframework.zip",
+            url: "https://github.com/haxhiuurim/Metriku/releases/download/1.4.9/MetrikuSDK.xcframework.zip",
             checksum: "81a96df811b7dbc20eac71dad0159482d37e7bd7e7ce392d238fad0d4176bf70"
         ),
     ]
